@@ -1,0 +1,129 @@
+body{
+	background-color: #fcab55;
+}
+
+.centered{
+	margin: 0 auto;
+}
+
+.container{
+	background-color: #000;
+	max-width: 900px;
+}
+
+#pizza_header{
+	padding: 1.5% 2.5%;
+}
+
+#hpd{
+	color: #ee7f38;
+	font-family: Helvetica LT std;
+	font-size: 3.5em;
+	font-style: italic;
+	text-shadow: 2px 2px 2px black;
+	padding-left: 5%;
+}
+
+.content_container{
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+#title{
+	background-color: #295e52;
+}
+
+#menu_title{
+	text-align:center;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	padding-top: 1%;
+}
+
+.top_background_gradient{
+	background-image: url("images/top_background_menu.png");
+	width: 100%;
+}
+
+.flat_menu_color{
+	background-color: #295e52;
+}
+
+body h4{
+	font-family: Myriad pro Semibold;
+	font-size: 2em;
+	font-style: italic;
+	color: #f2e085;
+	text-shadow: 2px 2px 2px black;
+	padding-left: 3%;
+}
+
+.ingredience{
+	font-family: Myriad Pro;
+	font-size: 1.5em;
+	color: #fff;
+	margin-bottom: 1%;
+}
+
+.gr_and_price{
+	text-align: right;
+	color: #fcab55;
+	font-family: Roboto;
+}
+
+.gr{
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px black;
+}
+
+.price{
+	font-size: 1.8em;
+	text-shadow: 2px 2px 2px black;
+}
+
+.bottom_background_gradient{
+	background-image: url("images/bottom_background_menu.png");
+	border-top: 3px solid #000;
+}
+
+.contact_details{
+	font-size: 1.7em;
+	color: #fff;
+	padding-left: 5%;
+	font-family: Roboto;
+	
+}
+
+.footer h5{
+	font-family: Myriad pro Semibold;
+	font-size: 2.2em;
+	color: #f2e085;
+	text-shadow: 2px 2px 2px black;
+	padding-left: 1%;
+}
+
+#map{
+	border: 8px solid #000;
+	overflow: hidden;
+	height: 250px;
+	border-left: none;
+	border-right: none;
+}
+
+#map iframe{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+/*------------------Break points---------------------*/
+
+@media only screen and (max-width: 510px){
+	#hpd{
+		font-size: 2.2em;
+	}
+}
